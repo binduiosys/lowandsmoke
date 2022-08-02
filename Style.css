@@ -1,0 +1,323 @@
+.main
+{
+    margin: auto 300px;
+   
+}
+.right_above
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 300px;
+}
+.right_below
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right:300px;
+}
+.right_above button
+{
+    margin-right:30px;
+    background-color: white;
+    border: 1px solid  rgb(165, 41, 41);
+    color: rgb(165, 41, 41);
+    border-radius: 5px;
+    padding: 10px;
+}
+.right_below a
+{
+    text-decoration: none;
+    display: flex;  
+    margin-right:30px; 
+    color: black;
+    font-weight: bold;
+}
+.left_logo 
+{
+    height: 200px;
+    width: 200px;
+    margin-left:500px;
+    position: relative;
+    top:200px;
+}
+.image img
+{
+    margin-top: 30px;
+    width: 1600px;
+    height: 800px;
+    margin-left: 300px;
+}
+.card
+{
+    height: 100px;
+    width: 400px;
+    margin-right: 100px;
+    font-size: 25px;
+
+}
+.headingcards
+{
+    display: inline-block;
+}
+.card:hover
+{
+    border: 2px solid rgb(45, 45, 227); 
+    height: 410px;
+    width: 400px;
+
+}
+
+.heading h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+.container
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.cards2 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+.item1
+{
+    background-color:rgb(14, 14, 117);
+    color: white;
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.item2
+{
+    background-color: rgb(108, 11, 11);
+    color: white;
+    height: 400px;
+    width: 1100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.item2 button{
+    background-color: white;
+    padding: 10px;
+    color: rgb(165, 41, 41);
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    width: 300px;
+}
+.paragraph
+{
+    text-decoration: underline 5px solid rgb(228, 60, 60);
+}
+.food h3{
+    color: rgb(117, 28, 28);
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Bello-pro';
+}
+.sec4 
+{
+    text-align: center;
+    font-size: 50px;
+}
+.p2
+{
+    font-size: 25px;
+    height: 100px;
+    width: 900px;
+    text-align: center;
+    margin-left: 700px;
+}
+.pepsi
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   text-align: center;
+}
+.pepsi img{
+    margin: auto 100px;
+}
+.pepsi p{
+    font-size: 25px;
+    font-weight: bold;
+}
+*
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.divleft
+{
+    background-image: url(rocket.png);
+    height:300px;
+    width: 280px;
+    margin: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    position: relative;
+    top:300px;
+
+
+}
+.divleft h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(22, 22, 106);
+    margin-top: 20px;
+}
+.sec5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top:30px;
+}
+.divright
+    {
+        font-size: 25px;
+        height: 100px;
+        width: 900px;
+        margin-left: 100px;
+        box-sizing: border-box;
+    }
+.divright h3{
+    font-size: 60px;
+    font-weight: bold;
+}
+.divright img
+{
+    height: 200px;
+    width: 200px;
+}
+button{
+    background-color: rgb(174, 98, 7);
+    color:white;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 300px;
+}
+.bbq
+{
+    margin-top: 40px;
+}
+.sec6
+{
+   background-image: url(sec6.png);
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   height:800px;
+   margin-top: 500px;
+}
+.catering
+{
+    background-color: rgba(35, 31, 32,0.83);
+    color: white;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+}
+.catering h2{
+    color:  rgb(174, 98, 7);
+    font-size: 50px;
+    font-weight: bold;
+}
+.catering p{
+font-size:25px;
+}
+.catering h3{
+    font-weight: bold;
+    font-size:25px;
+
+}
+@media only screen and (max-width: 1200px)
+{
+    body {
+      background-color: lightblue;
+    }
+    .image
+    {
+        width: max-content;
+    }
+}
+.fly
+{
+display: flex;
+margin-top: 100px;
+}
+.fly h1{
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Bello Pro';
+}
+.flydiv
+{
+    font-size: 25px;
+    height: 100px;
+    width: 900px;
+    margin-left: 300px;
+    margin-right: 100px;
+}
+.divright1 img
+{
+    position: relative;
+    top: 200px;
+}
+.flydiv h3{ 
+    font-size: 60px;
+    font-weight: bold;
+}
+.flydiv img {
+    height: 150px;
+    width: 150px;
+}
+.align img{
+    height: 500px;
+    width: 600px;
+    position: relative;
+    top: 500px;
+    margin-right: 70px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-basis: content;    
+}
+.visitorscard div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(187, 193, 199);
+}
+.visitors
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
