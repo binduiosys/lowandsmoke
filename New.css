@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,700;1,800;1,900&display=swap');
 .content-wrapper{
 max-width:1280px;
 margin-left:auto;
@@ -87,7 +88,7 @@ text-align: center;
 {
 margin-top:20px;
 }
-.module-three .card-button a
+.module-two .card-button a
 {
 font-size: 16px;
 color: #231F20;
@@ -97,7 +98,7 @@ text-decoration: none;
 border-bottom: 3px solid #C15D26;
 display: inline-block;
 }
-.module-three .card-button a:hover
+.module-two .card-button a:hover
 {
 color: #C15D26;
 }
@@ -238,8 +239,8 @@ line-height: 80px;
 padding-bottom: 53px;
 }
 section.module-five {
-    padding-bottom: 130px;
-    }    
+padding-bottom: 130px;
+}    
 .module-six{
 width: 100%;
 min-height: 467px;
@@ -282,19 +283,135 @@ background-color: #231F20;
 z-index: -1;
 }
 .module-seven{
-    padding: 100px 0px 50px 0px;
+padding: 100px 0px 100px 0px;
 }
 .module-seven .containerfour-content{
-    max-width: 834px;
-    text-align: center;
-    margin: 0 auto;
+max-width: 834px;
+text-align: center;
+margin: 0 auto;
+}
+
+.module-six .container-fourrr{
+max-width: 1058px;
+margin: 0 auto;
+}
+.module-eight{
+padding: 0px 0px 100px 0px;
+}
+.module-eight .fan-image{
+width: 100%;
+}
+.module-eight .fan-image img{
+max-width: 70px;}
+
+.module-eight .container-five{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+max-width: 1058px;
+margin: 0 auto;
+}
+.module-eight .fan-bg{
+flex-basis: 48%;
+}
+.module-eight .barbeque{
+flex-basis: 50%;
+}
+.module-eight .image-heading h2{
+font-size: 48px;
+color: #231F20;
+line-height: 80px;
+text-align: start;
+}
+.module-eight .image-content{
+max-width: 468px;
+}
+.module-eight .barbeque{
+padding: 100px 0px 0px 0px;
+}
+.module-eight .secondary-button{
+margin-top: 100px;
+}
+.module-nine .bg-img{
+min-height: 367px;
+max-width: 418px;
+/* min-width: 418px; */
+width: 100%;
+margin-right: 13px;
+position: relative;
+z-index: 1;
+}
+.module-nine ul.slick-dots {
+position: absolute;
+display: inline-flex !important;
+left: 54.3%;
+top: 100%;
+align-items: center;
+list-style: none;
+margin-top: 46px;
+transform: translate(-66%, 44%);
+}
+
+section.module-nine {
+position: relative;
+}
+.module-nine .bg-img:after {
+content: "";
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background-color: #000000;
+position: absolute;
+z-index: -1;
+opacity: 0.3;
+}
+
+.module-nine ul.slick-dots li {
+margin-bottom: 15px!important;
+height: 10px;
+width: 10px;
+margin-right: 18px;
+background-color: #333;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.module-nine ul.slick-dots li button {
+border: 0;
+background: transparent;
+display: block;
+height: 20px;
+width: 20px;
+outline: 0;
+line-height: 0;
+font-size: 0;
+padding: 5px;
+cursor: pointer;
+margin: 0 auto;
+min-width: auto;
+}
+.module-nine ul.slick-dots li.slick-active {
+height: 13px;
+width: 13px;
+background-color: #0f15c3;
+}
+.module-nine{
+    padding: 0px 0px 130px 0px;
 }
 
 
-/* media quiere for tablet */
+
+
+
+
+
+/* media queries for tablet */
 
 @media  (min-width: 768px) and (max-width: 1024px){
-    .module-two .cards{
+.module-two .cards{
 display: flex;
 flex-wrap: wrap;
 align-items: stretch;
@@ -315,7 +432,7 @@ line-height: 37px;
 font-size: 16px;
 }
 .module-five .rocket{
-    flex-basis: 38%;
+flex-basis: 38%;
 position: relative;
 }    
 } 
@@ -334,8 +451,8 @@ position: relative;
 
 /* mobile */
 @media (max-width:767px){
-    .module-two .cards{
-        
+.module-two .cards{
+
 display: block;
 }
 
@@ -379,7 +496,7 @@ font-size: 16px;
 }
 
 .module-five .rocket{
-    flex-basis: 100%;
+flex-basis: 100%;
 position: relative;
 } 
 .module-five .fire
@@ -397,7 +514,7 @@ flex-basis: 100%;
 padding-top: 100px;
 }
 .module-five .heading-content h2{
-    text-align: start;
+text-align: start;
 font-family: filson-soft,sans-serif;
 font-weight: 700;
 font-size: 30px;
@@ -408,7 +525,7 @@ line-height: 80px;
 flex-basis: 100%;
 }
 .module-four .pepsi{
-    flex-basis: 100%;
+flex-basis: 100%;
 }
 .module-three .common h5{
 font-family: 'Bello-pro';
@@ -426,24 +543,82 @@ padding-top: 100px;
 
 @media (max-width: 480px){
 .bg-image{
-    min-height: 395px;
+min-height: 395px;
 } 
 .module-five .rocket{
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
 .module-four .container_two {
-    
-    padding-top: 50px;
+
+padding-top: 50px;
 }
 .module-four .pepsi img{
-    height: 100%;
-    width: 100%;}
+height: 100%;
+width: 100%;}
 .module-four .bbq img{
 height: 100%;
 width: 100%;
 }
 .module-seven{
-    padding: 50px 0px 50px 0px;
+padding: 50px 0px 50px 0px;
 }
+.module-eight .barbeque{
+flex-basis: 100%;
+}
+.module-eight .barbeque img{
+max-width: 280px;
+}
+.module-eight .image-heading h2{
+font-size: 30px;
+color: #231F20;
+line-height: 40px;
+text-align: start;
+}
+.module-eight .fan-bg{
+flex-basis: 100%;
+}  
+.module-nine .bg-img{
+min-height: 300px;
+max-width: 100%;
+margin-right:0;
+}
+.module-eight .image-heading h2{
+    font-size: 26px;
+    color: #231F20;
+    line-height: 40px;
+    text-align: start;
+    }
+.module-eight .barbeque{
+    flex-basis: 0%;
+    margin: 0 auto;
+}
+.module-five .heading-content h2{
+    text-align: start;
+    font-family: filson-soft,sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    }
+    .module-six .box-content h5{
+        font-family: 'Bello-pro';
+        font-size: 32px;
+        color: #C15D26;
+        text-shadow:4px 4px #fff;   
+        }
+        
+h4{
+    color: #7A0306;
+    font-family: 'Bello-pro';
+    font-size: 38px;
+    text-align: center;
+    line-height: 77px;
+    }
+
+            
+
+
+
+
+
 
 }
