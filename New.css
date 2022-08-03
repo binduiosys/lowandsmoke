@@ -401,6 +401,100 @@ background-color: #0f15c3;
 .module-nine{
     padding: 0px 0px 130px 0px;
 }
+.module-ten .visitors-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   flex-direction: row;
+    flex-wrap: wrap;
+    padding:90px 0px 140px 0px;
+}
+.module-ten .visitors h2{
+    font-size: 48px;
+    line-height: 80px;
+}
+.module-ten .container-six{
+    max-width: 1204px;
+}
+.module-ten .visitor-content{
+    background-color: #F1F2F2;
+    text-align: center;
+    padding: 30px 25px 30px 25px ;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #231F20;
+}
+.module-ten .box{
+    flex-basis: 29.3%;
+    margin-right: 26px;
+
+}
+.module-ten .visitor-name p{
+    text-align: center;
+}
+.module-ten .review-google a{
+color: #FFFFFF;
+background-color: #C15D26;
+padding: 10px 27px 10px 25px;
+border:none;
+font-size:18px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+cursor: pointer;
+transition: 0.3s all;
+text-decoration: none;
+display: inline-block;
+text-align: center;
+}
+.module-ten .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    text-rendering: auto;
+    padding-right: 10px;
+}
+.module-ten .review-google{
+    padding: 10px 0px 0px 40px;
+
+}
+.module-ten ul.slick-dots {
+    position: absolute;
+    display: inline-flex !important;
+    left: 54.3%;
+    top: 80%;
+    align-items: center;
+    list-style: none;
+    transform: translate(-66%, 44%);
+    }
+    .module-ten ul.slick-dots li {
+    margin-bottom: 15px!important;
+    height: 10px;
+    width: 10px;
+    margin-right: 18px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+
+    .module-ten ul.slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: 0;
+    line-height: 0;
+    font-size: 0;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    min-width: auto;
+    }
+    .module-ten ul.slick-dots li.slick-active {
+    height: 13px;
+    width: 13px;
+    background-color: #0f15c3;
+    }
 
 
 
