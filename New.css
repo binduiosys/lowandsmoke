@@ -530,7 +530,7 @@ text-align: center;
         display:flex;
         align-items:center;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap; 
         padding: 10px 0px 100px 0px;
         }
     .module-thirteen .boxs{
