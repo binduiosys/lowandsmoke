@@ -58,7 +58,6 @@ font-size: 16px;
 }
 .module-three .event{
 display: flex;
-flex-direction: row;
 justify-content: center;
 margin-top: 20px;
 flex-wrap: wrap;
@@ -115,7 +114,6 @@ padding-top: 140px;
 }
 .module-four .flex-box{
 display: flex;
-flex-direction: row;
 justify-content: center;
 align-items: center;
 text-align: center;
@@ -163,7 +161,6 @@ padding: 0px 20px 100px;
 .module-five .container-three{
 display: flex;
 flex-wrap: wrap;
-flex-direction: row;
 justify-content: center;
 align-items: stretch;
 flex-basis: 100%;
@@ -294,7 +291,6 @@ max-width: 70px;}
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: row;
 flex-wrap: wrap;
 max-width: 1058px;
 margin: 0 auto;
@@ -391,7 +387,6 @@ background-color: #0f15c3;
     display: flex;
     justify-content: center;
     align-items: center; 
-   flex-direction: row;
     flex-wrap: wrap;
     padding:90px 0px 140px 0px;
 }
@@ -410,11 +405,12 @@ background-color: #0f15c3;
     font-family: 'Open Sans', sans-serif;
     color: #231F20;
 }
-.module-ten .box{
-    flex-basis: 29.3%;
-    margin-right: 26px;
-
-
+.module-ten .box:nth-child(3n+3) {
+    margin-right: 0;
+}
+.module-ten .box {
+    flex-basis: 32%;
+    margin-right: 2%;
 }
 .module-ten .visitor-name p{
     text-align: center;
@@ -439,10 +435,11 @@ text-align: center;
     font-size: 30px;
     text-rendering: auto;
     padding-right: 10px;
+    vertical-align: middle;
 }
 .module-ten .review-google{
-    padding: 10px 0px 0px 60px;
-
+    margin-top:  10px;
+    text-align: center;
 }
 .module-ten ul.slick-dots {
     position: absolute;
@@ -528,19 +525,21 @@ text-align: center;
     }
     .module-thirteen .timings{
         display:flex;
-        align-items:center;
+        align-items:stretch;
         justify-content: center;
         flex-wrap: wrap; 
         padding: 10px 0px 100px 0px;
         }
     .module-thirteen .boxs{
         flex-basis: 33.3%;
-        padding: 100px 0px 100px 0px;
+        padding: 150px 0px 150px 0px;
+    }
+    .module-thirteen .middle-one{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
 
+    }
     .module-thirteen .middle-card{
         min-height: 506px;
         text-align: center;
@@ -648,16 +647,12 @@ font-size: 16px;
 flex-basis: 38%;
 position: relative;
 } 
+.module-eight .fan-bg {
+    flex-basis: 42%;
+}
 .module-ten .visitors-cards {
     padding: 35px 0px 140px 0px;
 } 
-.module-ten .box{
-    margin-right: 20px;
-}
-.module-thirteen .boxs {
-    flex-basis: 32.3%;
-    padding: 150px 0px 0px 0px;
-}
 .module-thirteen .timings{
     display:flex;
     align-items:stretch;
@@ -672,18 +667,16 @@ position: relative;
     line-height: 19px;
     font-size: 20px;
 }
-.module-ten .review-google {
-    padding: 10px 10px 0px 10px;
-}
-.module-ten .review-google a{
-    padding: 10px 13px 10px 9px;
-}
 .module-ten .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: 23px;
     text-rendering: auto;
 }
+.module-ten .content-wrapper{
+    padding: 0px;
+}
+
 .module-thirteen .boxs {
     flex-basis: 32.3%;
     padding: 250px 0px 50px 0px;
@@ -695,8 +688,33 @@ position: relative;
     padding:0px
 }
 .module-thirteen .boxs h5{
-    font-size: 48px;
+    font-size: 38px;
 }
+.module-thirteen .boxs{
+    flex-basis: 33.3%;
+    padding: 150px 0px 150px 0px;
+}
+.module-thirteen .middle-card{
+    /* min-height: 506px; */
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 50px 0px 50px 0px;
+
+}
+.module-thirteen .leftcard {
+    background-color:#1F2D60;
+    font-size: 20px;
+    color: #fff;
+    /* min-height: 506px; */
+    text-align: center;
+}
+
+
+
+
+
 
 
 
@@ -719,8 +737,13 @@ position: relative;
 
 
 
+
+
 /* mobile */
-@media (max-width:767px){
+@media (max-width:767px){    
+    .module-one h1{
+    line-height: 120px;
+}
 .module-two .cards{
 display: block;
 }
@@ -799,10 +822,70 @@ padding-bottom: 50px;
 .module-four .container_two {
 padding-top: 100px;
 }
+.module-thirteen .boxs {
+    flex-basis: 33.3%;
+    padding: 127px 0px 78px 0px;
+}
+.module-eight .container-five{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1058px;
+    margin: 0 auto;
+    }
+    .module-eight .fan-bg{
+    flex-basis: 100%;
+    }
+    .module-eight .secondary-button {
+        margin-top: 50px;
+    }
+        .module-eight .barbeque img{
+            width:100%;
+        
+        }
+        .module-ten .visitors h2 {
+            font-size: 36px;
+            line-height: 46px;
+        }
+        .module-ten .visitors-cards {
+            padding: 50px 0px 100px 0px;
+        }
+        .module-ten .content-wrapper{
+            padding: 0px;
+        }
+        .module-ten .box {
+            flex-basis:100%;
+            margin-right: 0%;
+        }
+
+        
+
+
+
+
+
+
+
+
 
 }
 
+
+
+
+
+
+
+
+
+
 @media (max-width: 480px){
+    .module-one h1{
+        line-height: 120px;
+    }
+
+
     .module-two .card-left{
     flex-basis: 25.5%;
     line-height: 26px;
@@ -827,10 +910,6 @@ padding-top: 100px;
 .module-eight .secondary-button{
     margin-top: 50px;
     }
-.module-ten .review-google{
-        padding: 10px 0px 0px 18px;
-    }  
-
     .module-ten .content-wrapper{
         padding: 0px;
     }    
@@ -942,12 +1021,6 @@ margin-right:0;
         font-size: 32px;
         line-height: 40px;
     }
-    .module-ten .box{
-        margin-right: 0px;
-    }
-    .module-ten .review-google {
-        padding: 10px 0px 0px 52px;
-    }
     .module-five .content h2{
         color: #0F2949;
         font-size: 60px;
@@ -956,19 +1029,115 @@ margin-right:0;
     .module-ten .visitors-cards {
         padding: 35px 0px 140px 0px;
     }  
-    .module-thirteen .boxs{
-        padding: 150px 0px 0px 0px;
-    }
     .module-thirteen .content-wrapper{
         padding:0px
     }
     .module-thirteen .boxs {
-        padding: 50px 0px 50px 0px;
+        padding: 150px 0px 150px 0px;
     }
-    
-     
+    .module-thirteen .middle-card{
+        /* min-height: 506px; */
+        text-align: center;
+        color: #fff;
+        position: relative;
+        z-index: 1;
+        padding: 100px 0px 100px 0px;
 
-
+    }
+    .module-thirteen .leftcard {
+        background-color:#1F2D60;
+        font-size: 20px;
+        color: #fff;
+        /* min-height: 506px; */
+        text-align: center;
+    }
+    .module-six{
+        width: 100%;
+        min-height: 467px;
+        padding: 60px 0px;
+        }
+        .module-six .bring-meet{
+        max-width: 100%px;
+        }
+        .module-six .box-content h5{
+        font-family: 'Bello-pro';
+        font-size: 58px;
+        color: #C15D26;
+        text-shadow:4px 4px #fff;   
+        }
+        .module-six .box-content h3{
+        font-size: 26px;
+        color: #000;
+        }        
+        .module-six .box-content {
+        position: relative;
+        z-index: 1;
+        padding: 45px 20px 49px 20px;
+        }
+        
+        .module-six .box-content:after {
+        background-color:#FFFFFF;
+        }
+        .module-seven{
+        padding: 100px 0px 100px 0px;
+        }
+        .module-six .container-fourrr {
+            position: absolute;
+            top: 100%;
+            margin-top: 20px;
+            left: 10px;
+            right: 10px;
+        }
+        .module-six .box-content p {
+            color: #000;
+            font-size: 14px;
+            line-height: 16px;
+            padding-bottom: 35px;
+            max-width: 316px;
+        }
+        .module-six {
+            width: 100%;
+            min-height: 467px;
+            padding: 60px 0px;
+            margin-bottom: 300px;
+            position: relative;
+            top: 31px;
+        }
+        .module-six .box-content h5{
+            font-family: 'Bello-pro';
+            font-size: 38px;
+            color: #C15D26;
+            text-shadow:4px 4px #fff;   
+            }
+            .module-six {
+                width: 100%;
+                min-height: 220px;
+                padding: 60px 0px;
+                margin-bottom: 300px
+            ;
+                position: relative;
+                top: 31px;
+            }
+            .module-thirteen .boxs {
+                padding: 150px 0px 50px 0px;
+            }
+            .module-eight .container-five{
+                display: block;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                max-width: 1058px;
+                margin: 0 auto;
+                }
+                .module-eight .fan-bg{
+                flex-basis: 100%;
+                }
+                .module-ten .box {
+                    flex-basis:100%;
+                    margin-right: 0%;
+                }
+                
+                
 
 
 
